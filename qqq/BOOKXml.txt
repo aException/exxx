@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<BOOK>
+<book1>
+    <Bookname>php</Bookname>
+    <author>vision</author>
+ <price>rs.110</price>
+</book1>
+<book2>
+    <Bookname>java</Bookname>
+    <author>nirali</author>
+   <price>rs.120</price>
+</book2>
+<book3>
+    <Bookname>python</Bookname>
+    <author>nirali</author>
+   <price>rs.120</price>
+</book3>
+<book4>
+    <Bookname>OS</Bookname>
+    <author>nirali</author>
+ <price>rs.100</price>
+</book4>
+</BOOK>

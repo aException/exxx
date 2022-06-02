@@ -1,0 +1,42 @@
+<?php
+$xml=simplexml_load_file("slip9_1.xml");
+foreach ($xml -> book1 as $b) 
+{
+ 	echo "Book Name= $b->bookname"."<br>";
+	echo "Author name=$b->author"."<br>";
+echo"Price=$b->price"."<br>";
+}
+
+?>
+
+
+//slip9_1.xml
+
+<?xml version="1.0" ?>
+<Book>
+    <book1>
+        <bookname>learn to earn</bookname>
+        <author>peter lynch</author>
+        <price>300</price>
+    </book1>
+    <book2>
+        <bookname>how to make money</bookname>
+        <author>ganesh jore</author>
+        <price>3000</price>
+    </book2>
+    <book3>
+        <bookname>habits</bookname>
+        <author>mr.aditon</author>
+        <price>500</price>
+    </book3>
+    <book4>
+        <bookname>programmng in java</bookname>
+        <author>thomas</author>
+        <price>320</price>
+    </book4>
+    <book5>
+        <bookname>learn english</bookname>
+        <author>omkar</author>
+        <price>500</price>
+    </book5>
+</Book>

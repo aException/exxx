@@ -1,0 +1,16 @@
+#1 ‘Welcome to JavaScript world?’ using alert boxes. 
+
+<html>
+<body>
+    <p>Click the button to display an alert</p>
+    <button onclick="myfunction()">Display</button>
+    <script>
+        function myfunction()
+        {
+            
+            alert("Welcome to Javascript World!")
+            
+        }
+    </script>
+</body>
+</html>

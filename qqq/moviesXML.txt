@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <Movies>
+  <category type="classical">
+   <Movie_name>Radheshyam</Movie_name>
+   <Release_year>2022</Release_year>
+  </category>
+ <category type="Action">
+   <Movie_name>RRR</Movie_name>
+   <Release_year>2022</Release_year>
+  </category>
+ <category type="Horror">
+   <Movie_name>Kanchana2</Movie_name>
+   <Release_year>2020</Release_year>
+  </category>
+ </Movies>

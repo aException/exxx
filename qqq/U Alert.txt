@@ -1,0 +1,12 @@
+<html>
+<body>
+<p>click thr dispaly Alert box:</p>
+<button onclick="myFunction()">Try it</button>
+<script>
+function myFunction()
+{
+alert("Exam are near,have you started preparing for?:");
+}
+</script>
+</body>
+</html>

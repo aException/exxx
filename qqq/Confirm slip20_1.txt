@@ -1,0 +1,24 @@
+#1. Write a JavaScript to display message ‘Welcome to JavaScript world?’ using conform boxes. 
+#Accept proper input from user and display messages accordingly.
+
+<html>
+    <body>
+        <p>Click to display the message</p>
+        <button onclick="myfunction()">Display</button>
+        <script>
+            function myfunction()
+            {
+                let message= confirm("Do you want to display the message")
+                if(message)
+                {
+                    alert("Welcome to JavaScript world?")
+                }
+                else
+                {
+                    alert("cancel")
+                }
+            }
+           
+        </script>
+    </body>
+</html>

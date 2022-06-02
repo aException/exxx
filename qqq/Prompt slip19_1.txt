@@ -1,0 +1,24 @@
+#1. Write a JavaScr using Prompt boxes.
+
+
+<html>
+    <body>
+        <p>Click on button to display</p>
+            <button onclick="myfunction()">Display</button>
+    <script>
+        function myfunction()
+        {
+            message = prompt("Do you want to display message")
+            if(message)
+            {
+                alert("Welcome to Javascript World?")
+            }
+            else
+            {
+                alert("Cancel")
+            }
+        }
+    </script>
+        
+    </body>
+</html>

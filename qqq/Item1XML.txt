@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ITEM>
+<Item1>
+    <Itemname>Mouse</Itemname>
+    <Itemprice>50</Itemprice>
+    <Quantity>100</Quantity>
+</Item1>
+<Item2>
+    <Itemname>keyboard</Itemname>
+    <Itemprice>80</Itemprice>
+    <Quantity>100</Quantity>
+</Item2>
+<Item3>
+    <Itemname>mobile</Itemname>
+    <Itemprice>10</Itemprice>
+    <Quantity>100</Quantity>
+</Item3>
+<Item4>
+    <Itemname>tv</Itemname>
+    <Itemprice>30</Itemprice>
+    <Quantity>1000</Quantity>
+</Item4>
+<Item5>
+    <Itemname>battery</Itemname>
+    <Itemprice>500</Itemprice>
+    <Quantity>10</Quantity>
+</Item5>
+</ITEM>

@@ -1,0 +1,22 @@
+<html>
+<body>
+<h2>Javascript Prompt</h2>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+<script>
+function myFunction()
+{
+let text;
+let person=prompt("Exam are near,have you started preparing for?:","prepare for exam");
+if(person == null || person == ""){
+text="user not prepare for exam.";
+}
+else
+{
+text="I M " + person +" ! best luck?";
+}
+document.getElementById("demo").innerHTML=text;
+}
+</script>
+</body>
+</html>

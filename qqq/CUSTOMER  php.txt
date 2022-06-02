@@ -1,0 +1,57 @@
+<html>
+<body>
+<form method='POST' action='product.php'>
+Enter cust name:
+<input type="text" name="t1"> <br>
+Enter cust address:
+<input type="text" name="t2"> <br>
+Enter mobile number:
+<input type="text" name="t3"> <br>
+<input type="submit" value="Next"> 
+</form>
+</body>
+</html>
+
+\\pge2.php
+
+<?php
+session_start();
+$_SESSION["name"]=$_POST["t1"];
+$_SESSION["add"]=$_POST["t2"];
+$_SESSION["mobile"]=$_POST["t3"];
+?>
+<html>
+<body>
+<form method="POST" action="bill.php">
+Product name:
+<input type="text" name="t1"><br>
+QTY:
+<input type="text" name="t2"><br>
+Rate:
+<input type="text" name="t3"><br>
+<input type="submit" value="Next">
+</form>
+</body>
+
+\\pge3.php
+
+<?php
+session_start();
+$cname=$_SESSION["name"];
+$cadd=$_SESSION["add"];
+$cmobile=$_SESSION["mobile"];
+
+$pname=$_POST["t1"];
+$qty=$_POST["t2"];
+$rate=$_POST["t3"];
+$total=$qty*$rate;
+
+echo("<br>Cust name=".$cname);
+echo("<br>Cust address=".$cadd);
+echo("<br>Cust mobile number=".$cmobile);
+echo("<br>product name=".$pname);
+echo("<br>QTY=".$qty);
+echo("<br>Rate=".$rate);
+echo("<br>total bill amount=".$total);
+?>
+

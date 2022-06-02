@@ -1,0 +1,9 @@
+<?php
+if(isset($_COOKIE['count']))
+$count=$_COOKIE['count'];
+else
+$count=1;
+$count++;
+setcookie('count',$count);
+echo"<h4>this page is accessed $count times.</h4>";
+?>

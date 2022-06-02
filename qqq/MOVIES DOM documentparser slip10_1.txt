@@ -1,0 +1,49 @@
+<?php
+$dom=new DomDocument();
+$dom->load("Slip10_1.xml");
+$t=$dom->getElementsbyTagName("MovieTitle");
+foreach($t as $node)
+{
+    print $node->textContent;
+    echo "<br>";
+}
+$A=$dom->getElementsbyTagName("ActorName");
+foreach($A as $node1)
+{
+    print $node1->textContent;
+    echo "<br>";
+}
+?>
+
+
+\\slip10_1.xml
+
+<?xml version="1.0"?>
+<MovieInfo>
+    <MovieNo1>
+        <MovieTitle> Devdas</MovieTitle>
+        <ActorName>Shahrukh Khan </ActorName>
+        <ReleaseYear> 2004</ReleaseYear>
+    </MovieNo1>
+    <MovieNo2>
+        <MovieTitle> Laxmii</MovieTitle>
+        <ActorName> Akshay Kumar</ActorName>
+        <ReleaseYear> 2016</ReleaseYear>
+    </MovieNo2>  
+
+    <MovieNo3>
+        <MovieTitle> War</MovieTitle>
+        <ActorName> Tiger Shroff</ActorName>
+        <releaseYear> 2019</releaseYear>
+    </MovieNo3>
+    <MovieNo4>
+        <MovieTitle> Pushpa</MovieTitle>
+        <ActorName> Allu Arjun</ActorName>
+        <releaseYear> 2022</releaseYear>
+    </MovieNo4>
+    <MovieNo5>
+        <MovieTitle> RRR</MovieTitle>
+        <ActorName> Ram Charan</ActorName>
+        <releaseYear> 2022</releaseYear>
+    </MovieNo5>
+</MovieInfo>
