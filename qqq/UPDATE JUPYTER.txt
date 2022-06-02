@@ -1,0 +1,12 @@
+sudoapt update &&sudoapt -y upgrade
+
+sudoaptinstall python3-pip python3-dev
+
+sudo -H pip3 install --upgrade pip
+sudo -H pip3 install virtualenv
+
+mkdir notebook
+
+pip install jupyter
+
+jupyter notebook
